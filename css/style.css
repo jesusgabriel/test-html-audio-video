@@ -1,0 +1,37 @@
+
+h1{
+  font-family: 'Bree Serif', serif;
+  font-family: 'Lobster', cursive;
+  font-family: 'Bungee Inline', cursive;
+  text-align: center;
+}
+body{
+  background-color: lightblue;
+}
+#audio-control{
+  font-size: 2rem;
+  color: blue;
+  position: relative;
+  width: 35rem;
+  margin: 2rem auto;
+  height: 80px;
+
+ }
+
+audio {
+  display: block;
+  margin: 0 auto;
+}
+#link{
+  display: block;
+  width: 35rem;
+  margin: 2rem auto;
+}
+#load{
+  border-radius: 3px;
+  background-color: lightblue;
+  text-shadow: black;
+  display: block;
+  margin: auto;
+  border-color: gray;
+}

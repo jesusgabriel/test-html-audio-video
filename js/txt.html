@@ -1,0 +1,36 @@
+How do we measure the length of the critical rendering path? (10 pts)
+respuesta: recalculate  css style
+
+The number of server round trips your page must do in order to fully load and render
+respuesta: paint
+
+The number of actions the browser must take (eg run js, build cssom, build dom, etc) in order to fully load and render your page
+respuesta:
+By counting the number of all external resources that must be loaded
+By counting the number of render-blocking external resources that must be loaded
+
+What are the events in the Timeline pane which show the DOM being built, the CSSOM being built, and the render tree being built? (10 pts)
+Parse HTML, Parse CSS, Layout
+Parse HTML, Recalculate Style, Layout
+Parse HTML, Recalculate Style, Paint
+respuesta: es la opcion 2
+
+What is the render tree? (10 pts)
+respuesta: DOM, CSSOM, RENDER TREE, LAYOUT, PRINT.
+
+What are three things you can do in order to speed up a website's load time? (10 pts)
+
+What is the name of the Google tool you can use to see a list of things you can do to improve your page's load speed? (10 pts)
+respuesta: page speed tools
+
+Build an audiobook player that is capable of loading an audio file and that remembers
+the audio file that was loaded and the location where you left off (using localStorage, node or firebase).
+ You may consult the video project we did in class. You may test your audio player with these files: (50 pts)
+
+http://swolebrain.com/GrowthHackerMarketing.mp3
+http://swolebrain.com/TheArtofLearning.mp3
+http://cdn.panoply.fm/PP3692963319.mp3
+You need to implement the speed up and speed down controls, as well as the forward 10 seconds and back 10 seconds controls.
+
+(Bonus 40pts) Add a feature to the above program to maintain a listening list you can switch back and forth between.
+ In other words, every time you load a new audio file, it should be added to your library (also on localStorage, node or firebase).
