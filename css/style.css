@@ -8,9 +8,9 @@ h1{
 body{
   background-color: lightblue;
 }
-#audio-control{
+#video-control{
   font-size: 2rem;
-  color: blue;
+  color: gray;
   position: relative;
   width: 35rem;
   margin: 2rem auto;

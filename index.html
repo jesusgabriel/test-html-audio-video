@@ -13,27 +13,28 @@
 </head>
 
 <body>
-    <h1>Audio</h1>
-    <div id="audio-control">
+    <h1>Html Audio Video</h1>
+    <div id="video-control">
 <i class="fa fa-pause" id="pause" aria-hidden="true"></i>
+<i class="fa fa-stop" id="stop" aria-hidden="true"></i>
 <i class="fa fa-backward" id="backward"aria-hidden="true"></i>
 <i class="fa fa-forward" id="forward" aria-hidden="true"></i>
-<i class="fa fa-stop" id="stop" aria-hidden="true"></i>
 <i class="fa fa-arrow-up" id="arrow-up" aria-hidden="true"></i>
 <i class="fa fa-arrow-down" id="arrow-down" aria-hidden="true"></i>
     </div>
 
-    <audio controls="">
- <source src="http://users.skynet.be/fa046054/home/P22/track06.mp3">
-    </audio>
+    <video controls="">
+ <source src="http://treehouse-code-samples.s3.amazonaws.com/html-video-and-audio/bridge.mp4">
+ </video>
 
     <input id="link" type="text" name="name" value="">
-    <button id="load" type="button" name="name">Load audio</button>
+    <button id="load" type="button" name="name">Load video</button>
 
 </body>
-<script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-<script src="js/main.js">
-
-</script>
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
 
 </html>
